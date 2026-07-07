@@ -6,6 +6,9 @@ class Settings(BaseSettings):
     ENV: str = "development"
     PORT: int = 8000
 
+    GEMINI_API_KEY: str
+    GEMINI_MODEL: str
+
     model_config = SettingsConfigDict(
         env_file=".env",
         case_sensitive=True,
