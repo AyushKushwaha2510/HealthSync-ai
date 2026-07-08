@@ -12,7 +12,7 @@ class Medicine(BaseModel):
 
 
 class Prescription(BaseModel):
-    diagnosis: Optional[str] = None
+    diagnosis: Optional[List[str]] = None
     symptoms: List[str] = []
     diseases: List[str] = []
     medicines: List[Medicine]
