@@ -13,7 +13,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://www-healthsync.vercel.app",
-        "https://healthsync-production-ee66.up.railway.app"
+        "https://healthsync-production-ee66.up.railway.app",
         "http://localhost:4000",
     ],
     allow_credentials=True,
