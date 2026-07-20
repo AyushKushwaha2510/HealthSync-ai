@@ -14,5 +14,7 @@ class Settings(BaseSettings):
         case_sensitive=True,
     )
 
+    DATABASE_URL:str
+
 
 settings = Settings()
