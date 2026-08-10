@@ -1,10 +1,11 @@
 from typing import List
 from pydantic import BaseModel
+from app.features.prescriptions.schemas import PrescriptionAnalysis
 
 
 class Message(BaseModel):
     role: str
-    content: str
+    content: str | PrescriptionAnalysis
 
 
 class SendMessage(BaseModel):
