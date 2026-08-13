@@ -28,8 +28,6 @@ SEND_MESSAGE_PROMPT = ChatPromptTemplate.from_messages(
         (
             "human",
             """
-                
-
                 User Message:
                 {message}
             """,
