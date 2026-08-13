@@ -7,5 +7,4 @@ router = APIRouter(prefix="/chat")
 
 @router.post("/send")
 async def send(body: SendMessage) -> str:
-    print(body.messages)
     return await chat_service.send_message(body.messages)
