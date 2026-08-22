@@ -15,6 +15,7 @@ app.add_middleware(
         "https://www-healthsync.vercel.app",
         "https://healthsync-production-ee66.up.railway.app",
         "http://localhost:4000",
+        "https://healthsync-1-fs91.onrender.com"
     ],
     allow_credentials=True,
     allow_methods=["*"],
